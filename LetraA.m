@@ -1,0 +1,1 @@
+% Letra A% Function File: [x, t] = impz (b, a, n)% Gera a resposta impulsiva do filtro% b -> numerador% a -> denominador% n -> faixa de valoresnumerator = [0.03 0.0599 0.03];denominator = [1 -1.4542 0.5741];impz(numerator,denominator, 10);
